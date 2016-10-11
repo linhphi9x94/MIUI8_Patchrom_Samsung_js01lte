@@ -1,0 +1,11 @@
+/boot	emmc	/dev/block/platform/msm_sdcc.1/by-name/boot
+/recovery	emmc	/dev/block/platform/msm_sdcc.1/by-name/recovery
+/system	auto	/dev/block/platform/msm_sdcc.1/by-name/system
+/data	auto	/dev/block/platform/msm_sdcc.1/by-name/userdata
+/cache	auto	/dev/block/platform/msm_sdcc.1/by-name/cache
+/efs1	emmc	/dev/block/platform/msm_sdcc.1/by-name/efs
+/efs2	emmc	/dev/block/platform/msm_sdcc.1/by-name/modemst1
+/efs3	emmc	/dev/block/platform/msm_sdcc.1/by-name/modemst2
+/external_sd	vfat	/dev/block/mmcblk1p1
+/usbstorage	vfat	/dev/block/sda1
+/modem	emmc	/dev/block/platform/msm_sdcc.1/by-name/modem
