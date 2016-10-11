@@ -8,7 +8,6 @@ private-phone-apps := \
 	BluetoothMidiService \
 	CertInstaller \
 	Galaxy4 \
-	Gello \
 	HoloSpiralWallpaper \
 	KeyChain \
 	LiveWallpapers \
@@ -18,7 +17,6 @@ private-phone-apps := \
 	PhotoTable \
 	PrintSpooler \
 	LatinIME \
-	shutdownlistener \
 	Stk \
 	telresources \
 	ThemeManager \
@@ -36,10 +34,8 @@ private-phone-priv-apps := \
 	FusedLocation \
 	InputDevices \
 	ProxyHandler \
-	qcrilmsgtunnel \
 	SharedStorageBackup \
 	Shell \
-	Tag \
 	Telecom \
 	TelephonyProvider \
 	StatementService \
