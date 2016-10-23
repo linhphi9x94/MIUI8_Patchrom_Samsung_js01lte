@@ -13,6 +13,7 @@ import /init.trace.rc
 import /init.miui.rc
 # Include CM's extra init file
 import /init.cm.rc
+import /init.xdavn.rc
 
 
 on early-init
@@ -659,6 +660,7 @@ service ril-daemon /system/bin/rild
     socket rild stream 660 root radio
     socket sap_uim_socket1 stream 660 bluetooth bluetooth
     socket rild-debug stream 660 radio system
+    socket rild-cas stream 660 casdrm mmb
     user root
     group radio cache inet misc audio log qcom_diag
 

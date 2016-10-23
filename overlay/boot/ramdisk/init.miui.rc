@@ -66,6 +66,9 @@ service tunman /system/xbin/tunman
 on property:net.svc.tunman=start
     start tunman
 
+on property:sys.boot_completed=1
+    restart ril-daemon
+
 service otad /bin/otad
     class main
     socket otad stream 0660 updater updater
